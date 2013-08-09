@@ -1,5 +1,17 @@
 require "helgem/version"
 
 module Helgem
-  # Your code goes here...
+  class Say
+
+    def initialize(name = "nanashi")
+      @name = name
+    end
+
+    def hello()
+      puts "hello " + @name
+    end
+
+  end
 end
+
+
